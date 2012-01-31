@@ -2,13 +2,13 @@
 /** 
  * WordPress 基础配置文件。
  *
- * 本文件包含以下配置选项: MySQL 设置、数据库表名前缀、
- * 密匙、WordPress 语言设定以及 ABSPATH。如需更多信息，请访问
- * {@link http://codex.wordpress.org/Editing_wp-config.php 编辑
- * wp-config.php} Codex 页面。MySQL 设置具体信息请咨询您的空间提供商。
+ * 本文件包含以下配置选项：MySQL 设置、数据库表名前缀、密匙、
+ * WordPress 语言设定以及 ABSPATH。如需更多信息，请访问
+ * {@link http://codex.wordpress.org/zh-cn:%E7%BC%96%E8%BE%91_wp-config.php
+ * 编辑 wp-config.php} Codex 页面。MySQL 设置具体信息请咨询您的空间提供商。
  *
  * 这个文件用在于安装程序自动生成 wp-config.php 配置文件，
- * 您可以手动复制这个文件，并重命名为 wp-config.php，然后输入相关信息。
+ * 您可以手动复制这个文件，并重命名为“wp-config.php”，然后输入相关信息。
  *
  * @package WordPress
  */
@@ -33,7 +33,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
- * 身份密匙设定。
+ * 身份认证密匙设定。
  *
  * 您可以随意写一些字符
  * 或者直接访问 {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org 私钥生成服务}，
@@ -61,13 +61,13 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 /**
- * WordPress 语言设置，默认为英语。
+ * WordPress 语言设置，中文版本默认为中文。
  *
  * 本项设定能够让 WordPress 显示您需要的语言。
  * wp-content/languages 内应放置同名的 .mo 语言文件。
  * 要使用 WordPress 简体中文界面，只需填入 zh_CN。
  */
-define ('WPLANG', 'zh_CN');
+define('WPLANG', 'zh_CN');
 
 /**
  * 开发者专用：WordPress 调试模式。
@@ -77,7 +77,7 @@ define ('WPLANG', 'zh_CN');
  */
 define('WP_DEBUG', false);
 
-/* 好了！请不要再继续编辑。请保存该文件。使用愉快！ */
+/* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
 /** WordPress 目录的绝对路径。 */
 if ( !defined('ABSPATH') )

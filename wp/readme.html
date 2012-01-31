@@ -8,7 +8,7 @@
 <body>
 <h1 id="logo">
 	<a href="http://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" width="250" height="68" /></a>
-	<br /> 3.1.1 版本
+	<br /> 3.3.1 版本
 </h1>
 <p style="text-align: center">优美的个人信息发布平台</p>
 
@@ -21,12 +21,12 @@
 	<li>将 WordPress 压缩包解压至一个空文件夹，并上传它。</li>
 	<li>在浏览器中访问 <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span>。它将帮助您把数据库链接信息写入到 <code>wp-config.php</code> 文件中。
 		<ol>
-			<li>若上述方法不起作用，也没有关系，请用文本编辑器（如写字板）手动打开 <code>wp-config-sample.php</code> 文件，填入数据库信息。</li>
+			<li>如果上述方法无效，也没关系，这很正常。请用文本编辑器（如写字板）手动打开 <code>wp-config-sample.php</code> 文件，填入数据库信息。</li>
 			<li>将文件另存为 <code>wp-config.php</code> 并上传。</li>
 			<li>在浏览器中访问 <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span>。</li>
 		</ol>
 	</li>
-	<li>在配置文件就绪之后，WordPress 会自动尝试建立数据库表。若发生错误，请检查 <code>wp-config.php</code> 文件中填写的信息是否准确，然后再试。若问题依然存在，请访问<a href="http://zh-cn.forums.wordpress.org/forum/issues" title="WordPress 支持论坛">中文支持论坛</a>寻求帮助。</li>
+	<li>在配置文件就绪之后，WordPress 会自动尝试建立数据库表。若发生错误，请检查 <code>wp-config.php</code> 文件中填写的信息是否准确，然后再试。若问题依然存在，请访问<a href="http://zh-cn.forums.wordpress.org/" title="WordPress 支持论坛">中文支持论坛</a>寻求帮助。</li>
 	<li><strong>若您不设置密码，请牢记生成的随机密码。</strong>若您不输入用户名，用户名将是 <code>admin</code>。</li>
 	<li>完成后，安装向导会带您到<a href="wp-login.php">登录页面</a>。用刚刚设置的用户名和密码登录。若您使用随机密码，在登录后可以按照页面提示修改密码。</li>
 </ol>
@@ -55,8 +55,8 @@
 
 <h1>最低系统需求</h1>
 <ul>
-	<li><a href="http://php.net/">PHP</a> <strong>4.3</strong> 或更高。</li>
-	<li><a href="http://www.mysql.com/">MySQL</a> <strong>4.1.2</strong> 或更高。</li>
+	<li><a href="http://php.net/">PHP</a> <strong>5.2.4</strong> 或更高版本。</li>
+	<li><a href="http://www.mysql.com/">MySQL</a> <strong>5.0</strong> 或更高版本。</li>
 </ul>
 
 <h2>系统推荐</h2>
@@ -68,8 +68,8 @@
 <h1>在线资源</h1>
 <p>若您遇上文档中未有提及的情况，请首先参考我们为您准备的丰富 WordPress 在线资源：</p>
 <dl>
-	<dt><a href="http://codex.wordpress.org/">The WordPress Codex</a></dt>
-		<dd>Codex 是 WordPress 的百科全书。它包含现有版本 WordPress 的海量信息资源。</dd>
+	<dt><a href="http://codex.wordpress.org/">WordPress Codex 文档</a></dt>
+		<dd>Codex 是 WordPress 的百科全书。它包含现有版本 WordPress 的海量信息资源。主要文章均包含中文译文。</dd>
 	<dt><a href="http://wordpress.org/news/">WordPress 官方博客</a></dt>
 		<dd>在这里，您将接触到 WordPress 的最新升级信息和相关新闻，建议加入收藏夹。</dd>
 	<dt><a href="http://planet.wordpress.org/">WordPress Planet </a></dt>
@@ -81,14 +81,14 @@
 </dl>
 
 <h1><abbr title="eXtensible Markup Language">XML</abbr>-<abbr title="Remote Procedure Call">RPC</abbr> 和 Atom 接口</h1>
-<p>您可以使用诸如 <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>、<a href="http://ecto.kung-foo.tv/">Ecto</a>、<a href="http://bloggar.com/">Bloggar</a>、<a href="http://radio.userland.com">Radio Userland</a>（基于 Radio 的 email-to-blog 功能）、<a href="http://www.newzcrawler.com/">NewzCrawler</a> 等支持 blogging API 的工具更新博客。详情请参阅 Codex 上关于 <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC 支持</a>的内容。</p>
+<p>您可以使用诸如 <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>、<a href="http://ecto.kung-foo.tv/">Ecto</a>、<a href="http://bloggar.com/">Bloggar</a>、<a href="http://radio.userland.com">Radio Userland</a>（基于 Radio 的 email-to-blog 功能）、<a href="http://www.newzcrawler.com/">NewzCrawler</a> 等支持 blogging API 的工具更新博客。详情请参阅 Codex 上关于 <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC 支持</a>（英文）的内容。</p>
 
-<h1>用 Email 发布文章</h1>
-<p>您可以通过电子邮件发表站点更新！请前往后台的“写作”设置页面，输入相关信息和 <abbr title="Post Office Protocol version 3">POP3</abbr> 帐号信息。然后您需设法让 <code>wp-mail.php</code> 定期运行。您可以使用<a href="http://en.wikipedia.org/wiki/Cron">计划任务（Cron job）</a>来实现，或是让某个站点检测服务定期访问您的 <code>wp-mail.php</code> 的 <abbr title="Uniform Resource Locator">URL</abbr>。</p>
+<h1>用电子邮件发布文章</h1>
+<p>您可以通过电子邮件发表站点更新！请前往后台的“写作”设置页面，输入相关信息和 <abbr title="Post Office Protocol 第三版本">POP3</abbr> 帐号信息。然后您需设法让 <code>wp-mail.php</code> 定期运行。您可以使用<a href="http://en.wikipedia.org/wiki/Cron">计划任务（Cron job）</a>来实现，或是让某个站点检测服务定期访问您的 <code>wp-mail.php</code> 的 <abbr title="Uniform Resource Locator">URL</abbr>。</p>
 <p>更新很简单：使用任何邮箱发送内容到指定地址均会被 WordPress 自动发表，并以邮件主题作为文章标题，所以该"指定地址"也最好保密并专用。发表后程序将自动<em>删除</em>邮件。</p>
 
 <h1>用户角色</h1>
-<p>WordPress 2.0 之后的版本加入了更为灵活的用户身份系统，同时移除了之前的用户等级制度。 <a href="http://codex.wordpress.org/Roles_and_Capabilities">到 Codex 阅读关于身份和权限的更多内容</a>。</p>
+<p>WordPress 2.0 之后的版本加入了更为灵活的用户身份系统，同时移除了之前的用户等级制度。 <a href="http://codex.wordpress.org/Roles_and_Capabilities">到 Codex 阅读关于身份和权限的更多内容</a>（英文）。</p>
 
 <h1>最后</h1>
 <ul>
