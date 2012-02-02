@@ -48,13 +48,13 @@ position: absolute;
 right: 0;
 display: none; /*collapse all sub menus to begin with*/
 visibility: hidden;
-width:700px;
+width:625px;
 }
 
 /*Sub level menu list items (undo style from Top level List Items)*/
 .ddsmoothmenu ul li ul li{
 display: block;
-float: right;
+float: left;
 }
 
 /*All subsequent sub menu levels vertical offset after 1st level sub menu */

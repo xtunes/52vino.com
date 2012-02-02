@@ -40,7 +40,14 @@
   <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr-1.7.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<?php
+	/* Always have wp_head() just before the closing </head>
+	 * tag of your theme, or you will break many plugins, which
+	 * generally use this hook to add elements to <head> such
+	 * as styles, scripts, and meta tags.
+	 */
+	wp_head();
+?>
 <script type="text/javascript" src="js/ddsmoothmenu.js"></script>
 <script type="text/javascript">
 
@@ -52,14 +59,6 @@ ddsmoothmenu.init({
 	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })
 </script>
-<?php
-	/* Always have wp_head() just before the closing </head>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to add elements to <head> such
-	 * as styles, scripts, and meta tags.
-	 */
-	wp_head();
-?>
 </head>
 
 <body class="page" id="<?php the_ID(); ?>">
@@ -79,33 +78,33 @@ ddsmoothmenu.init({
 				</div>
 				<div id="menu">
 					<ul>
-						<li><a href="#">热点·活动</a>
+						<li><a href="#">热点&nbsp;·&nbsp;活动</a>
 							<ul>
-								<li><a class="s3" href="/?page_id=23">培训课程表</a></li>
+								<li><a class="s1" href="/?page_id=25">新闻快报</a></li>								
 								<li><a class="s2" href="/?page_id=21">活动日程表</a></li>
-								<li><a class="s1" href="/?page_id=25">新闻快报</a></li>
+								<li><a class="s3" href="/?page_id=23">培训课程表</a></li>								
 							</ul>
 						</li>
-						<li><a href="#">理念·优势</a>
+						<li><a href="#">理念&nbsp;·&nbsp;优势</a>
 							<ul>
-								<li><a class="s6" href="/?page_id=19">合作伙伴</a></li>
+								<li><a class="s4" href="/?page_id=16">品牌缘起</a></li>								
 								<li><a class="s5" href="/?page_id=18">团队介绍</a></li>
-								<li><a class="s4" href="/?page_id=16">品牌缘起</a></li>
+								<li><a class="s6" href="/?page_id=19">合作伙伴</a></li>
 							</ul>
 						</li>
-						<li><a href="#">酒品·精选</a>
+						<li><a href="#">酒品&nbsp;·&nbsp;精选</a>
 							<ul>
-								<li><a class="s10" href="#">日常饮用</a></li>
-								<li><a class="s9" href="#">礼品酒</a></li>
-								<li><a class="s8" href="#">新世界葡萄酒</a></li>
 								<li><a class="s7" href="#">法国葡萄酒</a></li>
+								<li><a class="s8" href="#">新世界葡萄酒</a></li>
+								<li><a class="s9" href="#">礼品酒</a></li>
+								<li><a class="s10" style="margin-left:-40px" href="#">日常饮用</a></li>
 							</ul>
 						</li>
-						<li><a href="#">行家·解密</a></li>
-						<li><a href="#">酒铺·服务</a>
+						<li><a href="#">行家&nbsp;·&nbsp;解密</a></li>
+						<li><a href="#">酒铺&nbsp;·&nbsp;服务</a>
 							<ul>
-								<li><a class="s12" href="/?page_id=19">网上店铺</a></li>
 								<li><a class="s11" href="/?page_id=18">礼品中心</a></li>
+								<li><a class="s12" href="/?page_id=19">网上店铺</a></li>								
 							</ul>
 						</li>
 					</ul>

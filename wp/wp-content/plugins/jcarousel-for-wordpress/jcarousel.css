@@ -1,0 +1,28 @@
+.jcarousel-container {
+    -moz-border-radius: 10px;
+    background: #F0F6F9;
+    border: 1px solid #346F97;
+    width: 245px;
+    padding: 20px 40px;
+}
+
+.jcarousel-clip {
+    width:  245px;
+    height: 75px;
+}
+
+.jcarousel-list {
+    width:  255px;
+    height: 75px;
+}
+
+.jcarousel-list li {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.jcarousel-item-placeholder {
+    background: #fff url(jcarousel_loading.gif) 50% 50% no-repeat;
+}
+
