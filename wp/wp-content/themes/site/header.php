@@ -105,8 +105,8 @@ ddsmoothmenu.init({
 						<li><a href="#">行家&nbsp;·&nbsp;解密</a></li>
 						<li><a href="#">酒铺&nbsp;·&nbsp;服务</a>
 							<ul>
-								<li><a class="s11" href="/?page_id=18">礼品中心</a></li>
-								<li><a class="s12" href="/?page_id=19">网上店铺</a></li>								
+								<li><a class="s11" href="/?page_id=138">礼品中心</a></li>
+								<li><a class="s12" href="#">网上店铺</a></li>								
 							</ul>
 						</li>
 					</ul>
