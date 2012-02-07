@@ -1,0 +1,146 @@
+.wpif2_images img { 
+	position:absolute; 
+	top:0px;
+	border:none;
+	color: #ffffff;
+}
+.clear{
+	clear:both;
+}
+.wpif2_images{
+	position:relative;
+	visibility:hidden;
+	color: #ffffff;
+}
+.wpif2_loading{
+	visibility:hidden;
+	margin-top:50px;
+	padding-top: 30px;
+	text-align:center;
+	width:100%;
+	color: #ffffff;
+}
+.wpif2_loading img{
+	margin-top:10px;
+	position:relative; 
+	border:none;
+}
+.wpif2_captions{
+	font-weight:bold;
+	position:relative; 
+	text-align:center;
+	z-index:10000;
+}
+.wpif2_scrollbar{
+	visibility:hidden;
+	position:relative; 
+	border-bottom:1px solid #b3b3b3;
+	z-index:10001;
+}
+.wpif2_scrollbar.black {
+	border-bottom-color: #000;
+}
+.wpif2_slider{
+	position:absolute;
+	margin-top:-7px !important;
+	margin-left:-7px;
+	z-index:10002;
+	background-image:url(../img/slider.png);
+	background-repeat:no-repeat;
+	width:14px;
+	height:14px;	
+}
+.wpif2_scrollbar.black .wpif2_slider {
+	background-image:url(../img/sliderblack.png);
+}	
+.wpif2_imageflow{
+	width: 520px; 
+	text-align:left;
+	background-color:#000;
+	color: #ffffff;
+}
+.wpif2_imageflow_noscript {
+	padding: 0;
+	margin: 0;
+}
+.wpif2_imageflow_noscript img {
+	padding: 0 5px 10px 5px;
+}
+#wpif2_overlay
+{
+	background-color: #000000; /* The color to display*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	/* Set the overlay so it appears above the page content */
+	z-index: 20000;
+
+	visibility:hidden;
+}
+
+#wpif2_topbox
+{
+	position: absolute;
+
+	/* Default positioning, that will be overridden by the javascript */
+	left: 0px;
+	top: 0px;
+
+	padding: 5px;
+	background-color: #FFFFFF;
+	text-align: center;
+
+	/*Must use a z-index greater than the screen overlay*/
+	z-index: 20001;
+
+	visibility:hidden;
+}
+
+#wpif2_topboxprev {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 49%;
+	height: 100%;
+	display: block;
+	background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+	text-decoration: none;
+	outline-style: none;
+	outline-width: medium;
+}
+#wpif2_topboxnext {
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 49%;
+	height: 100%;
+	display: block;
+	background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+	text-decoration: none;
+	outline-style: none;
+	outline-width: medium;
+}
+#wpif2_topboxprev:hover, #wpif2_topboxprev:visited:hover { background: url(../img/prevlabel.gif) left 15% no-repeat; text-decoration: none;}
+#wpif2_topboxnext:hover, #wpif2_topboxnext:visited:hover { background: url(../img/nextlabel.gif) right 15% no-repeat; text-decoration: none;}
+
+a#wpif2_topboxclose, a#wpif2_overlayclose {
+	color: #0066CC;
+	text-decoration: none;
+}
+a#wpif2_topboxclose:hover, a#wpif2_overlayclose:hover {
+	text-decoration: underline;
+}
+
+#changelog{
+	width:349px;
+	border-right:solid 1px #666;
+	float:left;
+	margin-top: 15px;
+}
+#changelog div{
+	text-align: justify;
+	padding: 0 15px 5px 15px;
+}
