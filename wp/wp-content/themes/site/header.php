@@ -77,6 +77,7 @@ ddsmoothmenu.init({
 					<a href="#"><img src="/images/zhanghu.png"></a>
 					<a href="#"><img src="/images/cart.png"></a>
 				</div>
+				<div class="tel"><img src="/images/tel.jpg"></div>
 				<div id="menu">
 					<ul>
 						<li><a href="#">热点&nbsp;·&nbsp;活动</a>

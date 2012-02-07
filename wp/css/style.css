@@ -253,6 +253,7 @@ ul{list-style:none;}
 .productlist{width:388px;margin-left:116px;margin-top:35px;}
 .productlist .item{float:left;padding-right:10px;}
 .product{width:443px;margin-left:59px;margin-top:18px;}
+.tel{position:absolute;top:40px;left:707px;}
 /* general */
 .left{float:left;}
 .right{float:right;}
