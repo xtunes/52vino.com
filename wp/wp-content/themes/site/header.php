@@ -95,7 +95,7 @@ ddsmoothmenu.init({
 						</li>
 						<li><a href="#">酒品&nbsp;·&nbsp;精选</a>
 							<ul>
-								<li><a class="s7" href="#">法国葡萄酒</a></li>
+								<li><a class="s7" href="/?cat=4">法国葡萄酒</a></li>
 								<li><a class="s8" href="#">新世界葡萄酒</a></li>
 								<li><a class="s9" href="#">礼品酒</a></li>
 								<li><a class="s10" style="margin-left:-40px" href="#">日常饮用</a></li>
