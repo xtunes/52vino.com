@@ -186,7 +186,7 @@ a{text-decoration:none;}
 .clear{clear:both;}
 .w560{width:560px;}
 ul{list-style:none;}
-.header{background: url('../images/top_bg.png') repeat-x 0 0;width:100%;height:210px;}
+.header{background: url('../images/top_bg.png') repeat-x 0 0;width:100%;height:169px;}
 .main{background:#fff;}
 .footer{background: url('../images/footer_bg.png') repeat-x 0 0;min-height:127px;;
 }
@@ -253,7 +253,7 @@ ul{list-style:none;}
 .productlist{width:388px;margin-left:116px;margin-top:35px;}
 .productlist .item{float:left;padding-right:10px;}
 .product{width:443px;margin-left:59px;margin-top:18px;}
-.tel{position:absolute;top:40px;left:707px;}
+.tel{position:absolute;top:30px;left:707px;}
 /* general */
 .left{float:left;}
 .right{float:right;}
