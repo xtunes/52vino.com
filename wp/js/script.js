@@ -30,4 +30,14 @@
 			$('.link').removeClass('current');
 			$('.link.southfrance').addClass('current');
 		});
+		var p1h=$('.p1').height();
+		if (p1h>330) {
+			$('.more').show();
+			$('.p1').addClass('p2')
+		};
+		$('.more').click(function() {
+ 			 $('.p1').removeClass('p2');
+ 			 $('.p1').css("padding-bottom","40px");
+ 			 $('.more').hide();
+		});
     });

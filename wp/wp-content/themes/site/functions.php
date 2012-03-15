@@ -523,3 +523,28 @@ function is_child( $parent = '' ) {
 		return false;
 	}
 }
+function my_init_method() {
+    
+    add_image_size( 'icon', 68 , 65 ,true);
+    add_image_size( 'preview',680, 500);
+    register_post_type('product', array(	'label' => '产品','description' => '','public' => true,'show_ui' => true,'show_in_menu' => true,'capability_type' => 'post','hierarchical' => false,'rewrite' => array('slug' => ''),'query_var' => true,'supports' => array('title','editor','thumbnail'),'taxonomies' => array('product-category'),'labels' => array (
+      'name' => '产品',
+      'singular_name' => 'product',
+      'menu_name' => '产品',
+      'add_new' => '添加产品',
+      'add_new_item' => '添加新产品',
+      'edit' => '编辑',
+      'edit_item' => '编辑产品',
+      'new_item' => '添加新产品',
+      'view' => '浏览产品页面',
+      'view_item' => '浏览产品页面',
+      'search_items' => '搜索产品',
+      'not_found' => '没找到任何产品',
+      'not_found_in_trash' => 'No Portfolios Found in Trash',
+      'parent' => 'Parent Portfolio',
+    ),) );
+    register_taxonomy('product-category',array (
+      0 => 'product',
+    ),array( 'hierarchical' => true, 'label' => '产品分类','show_ui' => true,'query_var' => true,'rewrite' => array('slug' => 'product-category'),'singular_label' => 'Catalog') );
+}
+add_action('init', 'my_init_method');

@@ -74,17 +74,17 @@ ddsmoothmenu.init({
 		<input type="submit" value="搜索" id="searchsubmit" name="submit" class="submit">
 	</form>
 					</div>
-					<a href="#"><img src="/images/zhanghu.png"></a>
-					<a href="#"><img src="/images/cart.png"></a>
+					<a href="/?page_id=355 "><img src="/images/zhanghu.png"></a>
+					<a href="/?page_id=333"><img src="/images/cart.png"></a>
 				</div>
 				<div class="tel"><img src="/images/tel.jpg"></div>
 				<div id="menu">
 					<ul>
 						<li><a href="#">热点&nbsp;·&nbsp;活动</a>
 							<ul>
-								<li><a class="s1" href="/?page_id=25">新闻快报</a></li>								
+								<li><a class="s1" href="/?cat=9">新闻快报</a></li>								
 								<li><a class="s2" href="/?page_id=21">活动日程表</a></li>
-								<li><a class="s3" href="/?page_id=23">培训课程表</a></li>								
+								<li><a class="s3" href="/?cat=11">培训课程表</a></li>								
 							</ul>
 						</li>
 						<li><a href="#">理念&nbsp;·&nbsp;优势</a>
@@ -96,13 +96,18 @@ ddsmoothmenu.init({
 						</li>
 						<li><a href="#">酒品&nbsp;·&nbsp;精选</a>
 							<ul>
-								<li><a class="s7" href="/?cat=4">法国葡萄酒</a></li>
-								<li><a class="s8" href="#">新世界葡萄酒</a></li>
-								<li><a class="s9" href="#">礼品酒</a></li>
-								<li><a class="s10" style="margin-left:-40px" href="#">日常饮用</a></li>
+								<li><a class="s7" href="/?product-category=frenchwine" style="margin-left:-30px">法国葡萄酒</a></li>
+								<li><a class="s8" href="#" style="margin-left:-10px">新世界葡萄酒</a></li>
+								<li><a class="s13" href="#" >名庄酒</a></li>
+								<li><a class="s9" style="margin-left:-50px" href="#">礼品酒</a></li>
+								<li><a class="s10" style="margin-left:-50px" href="#">日常饮用</a></li>
 							</ul>
 						</li>
-						<li><a href="#">行家&nbsp;·&nbsp;解密</a></li>
+						<li><a href="#">行家&nbsp;·&nbsp;解密</a>
+							<ul>
+								<li><a class="s14" href="/?page_id=224" >常见问题</a></li>
+							</ul>
+						</li>
 						<li><a href="#">酒铺&nbsp;·&nbsp;服务</a>
 							<ul>
 								<li><a class="s11" href="/?page_id=138">礼品中心</a></li>

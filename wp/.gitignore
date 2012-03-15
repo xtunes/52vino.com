@@ -34,3 +34,4 @@
 # !wp-content/themes/my-theme/
 
 wp-config.php
+wp-content/uploads/*
