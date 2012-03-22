@@ -10,8 +10,9 @@
 get_header(); ?>
     <div class="main">
 		<div class="wrap">
+			<div class="innerwrap">
 				<div class="featured left"><?php the_post_thumbnail('fullsize');?></div>
-				<div class="left w580">
+				<div class="left w560">
 					<div class="breadcrumb">
 <span class="red arrow">&gt;</span><?php
 if(function_exists('bcn_display'))
@@ -28,6 +29,7 @@ if(function_exists('bcn_display'))
 					<div class="more" href="#">显示更多</div>
 				</div>
 				<div class="clear"></div>
+			</div>
 	</div>
 <?php get_footer(); ?>
 

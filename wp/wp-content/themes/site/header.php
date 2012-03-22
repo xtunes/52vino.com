@@ -106,6 +106,8 @@ ddsmoothmenu.init({
 						<li><a href="#">行家&nbsp;·&nbsp;解密</a>
 							<ul>
 								<li><a class="s14" href="/?page_id=224" >常见问题</a></li>
+								<li><a class="s15" href="#" style="margin-left:-30px">旧世界/法国葡萄酒</a></li>
+								<li><a class="s8" href="#" style="margin-left:-10px">新世界葡萄酒</a></li>
 							</ul>
 						</li>
 						<li><a href="#">酒铺&nbsp;·&nbsp;服务</a>

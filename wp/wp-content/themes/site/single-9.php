@@ -10,6 +10,7 @@
 get_header(); ?>
   <div class="main">
 		<div class="wrap">
+			<div class="innerwrap">
 				<div class="featured left"><img src="/images/cat9.jpg"/></div>
 				<div class="left w560">
 					<div class="breadcrumb">
@@ -29,6 +30,7 @@ if(function_exists('bcn_display'))
 					</div>
 				</div>
 				<div class="clear"></div>
+				</div>
 	</div>
 
 <?php get_footer(); ?>

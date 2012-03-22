@@ -10,6 +10,7 @@
 get_header(); ?>
     <div class="main">
     	<div class="wrap">
+    		<div class="innerwrap">
 				<div class="featured left"><img src="/images/cat8.jpg"/></div>
 				<div class="left w560 relative">
 					<div class="breadcrumb">
@@ -58,5 +59,6 @@ echo '</ul>';
 			</div>
     	</div>
     	<div class="clear"></div>
+    	</div>
     </div>
 <?php get_footer(); ?>

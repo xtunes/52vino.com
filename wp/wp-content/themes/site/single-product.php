@@ -10,6 +10,7 @@
 get_header(); ?>
   <div class="main">
 		<div class="wrap">
+			<div class="innerwrap">
 						  <?php				    
              /****************************************************************************************************
                 http://wordpress.org/support/topic/plugin-custom-field-template-use-media-picker-and-output-image 
@@ -40,6 +41,7 @@ if(function_exists('bcn_display'))
 					</div>
 				</div>
 				<div class="clear"></div>
+				</div>
 	</div>
 
 <?php get_footer(); ?>
