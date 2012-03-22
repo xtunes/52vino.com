@@ -291,9 +291,9 @@ ul{list-style:none;}
 		color:#fff!important;
 		font-weight:normal;
 }
-.nextpostslink{background: url('../images/next.gif') no-repeat 0 50%;height:16px;border:none!important;}
+.nextpostslink{background: url('../images/next.gif') no-repeat 0 50%;height:16px;border:none!important;text-indent:-9999px;display: inline-block;}
 .nextpostslink:hover{background: url('../images/next.gif') no-repeat 0 50%!important;}
-.previouspostslink{background: url('../images/prew.gif') no-repeat 0 50%;height:16px;border:none!important;}
+.previouspostslink{background: url('../images/prew.gif') no-repeat 0 50%;height:16px;border:none!important;text-indent:-9999px;display: inline-block;}
 .previouspostslink:hover{background: url('../images/prew.gif') no-repeat 0 50%!important;}
 .underlying{position:absolute;left:100px;}
 .underlying li a{font-size:14px;color:#C6C8C8;display:block;background: url('../images/ping1.gif') no-repeat 0 50%;padding-left:17px;height:31px;line-height:31px;border-bottom:1px solid #C6C8C8;padding-bottom:3px;margin-bottom:3px;}
