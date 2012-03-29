@@ -98,7 +98,7 @@ ddsmoothmenu.init({
 							<ul>
 								<li><a class="s7" href="/?product-category=frenchwine" style="margin-left:-30px">法国葡萄酒</a></li>
 								<li><a class="s8" href="#" style="margin-left:-10px">新世界葡萄酒</a></li>
-								<li><a class="s13" href="#" >名庄酒</a></li>
+								<li><a class="s13" href="/?page_id=469" >名庄酒</a></li>
 								<li><a class="s9" style="margin-left:-50px" href="#">礼品酒</a></li>
 								<li><a class="s10" style="margin-left:-50px" href="#">日常饮用</a></li>
 							</ul>

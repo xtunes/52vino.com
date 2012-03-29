@@ -249,6 +249,9 @@ ul{list-style:none;}
 .intro{line-height:18px;margin-top:15px;width:313px;}
 .introleft{float:left;width:62px;}
 .introright{width:227px;float:left;}
+.intro2{width:476px;}
+.intro2 .introright{width:399px}
+.intro2 .winename{background: url('../images/line.jpg') repeat-x bottom center;width:100%;}
 .jiu{line-height:25px;margin-top:0 !important;padding-top:8px;}
 .wpif2_captions,.wpif2_scrollbar{display:none!important;}
 .faguo{background: url('../images/faguomap.jpg') no-repeat 0 0;width:276px;height:220px;position:relative;float:right}
