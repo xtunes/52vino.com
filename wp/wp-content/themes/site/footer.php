@@ -1,10 +1,11 @@
 <div class="footer">
 			<div class="wrap">
 				<a href="#">品牌博客</a>|
-				<a href="#">网站地图</a>|
+				<a href="/?page_id=539">网站地图</a>|
 				<a href="#">联系我们</a>|
 				<a href="#">友情链接</a>|
 				<a href="#">技术支持</a>
+				<p style="margin-top:5px;">沪ICP备10209441</p>
 			</div>
 		</div>
   <!-- JavaScript at the bottom for fast page loading -->

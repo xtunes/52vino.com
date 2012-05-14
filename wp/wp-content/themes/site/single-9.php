@@ -21,7 +21,7 @@ if(function_exists('bcn_display'))
 }
 ?>
 </div>
-					<div class="content p1 p2">
+					<div class="content">
 						<div class="p3">
 						<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 					<?php the_content(); ?>

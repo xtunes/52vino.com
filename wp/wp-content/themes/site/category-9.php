@@ -21,7 +21,7 @@ if(function_exists('bcn_display'))
 }
 ?>
 </div>
-					<div class="content">
+					<div class="content cat9">
 					<ul class="newslist left" style="padding-left:68px;">
 							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     		  <li>

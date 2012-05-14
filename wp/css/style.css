@@ -271,8 +271,8 @@ ul{list-style:none;}
 .product{width:443px;margin-left:59px;margin-top:18px;}
 .tel{position:absolute;top:30px;left:707px;}
 .newslist{line-height:23px;}
-.newslist li a:hover{font-weight:bold;}
-.p3{padding-left:71px;line-height:18px;}
+.cat9 .newslist{width:260px;}
+.p3{padding-left:71px;line-height:18px;padding-bottom:59px;}
 .qa{width:323px;line-height:32px;}
 .qa li a:hover{font-weight:bold;color:#000;text-decoration:underline;}
 .more{display:none;line-height:18px;background: url('../images/ico_more.gif') no-repeat 0 50%;height:18px;padding-left:20px;margin-left:334px;cursor:pointer;}
@@ -303,6 +303,18 @@ ul{list-style:none;}
 .underlying li a:hover{color:#000;background: url('../images/ping2.gif') no-repeat 0 50%;}
 .innerwrap{width:900px;margin:0 auto;}
 .grey{color:#717271;}
+.mingzhuangjiu{margin-left:109px!important;}
+.mingzhuangjiu .side{float:left;line-height:28px;}
+.mingzhuangjiu .side h2{color:#8D2428;font-size:14px;}
+.mingzhuangjiu a{color:#000;}
+.mingzhuangjiu a:hover{color:#8D2428;}
+.mingzhuangjiu .current{color:#8D2428;}
+.mingzhuangjiulist{float:left;padding-left:36px;}
+.lipinjiu{margin-left:70px!important;width:515px!important;}
+.lipinjiu .introright {width:443px;}
+.lipinjiu .item2{padding-bottom:40px;}
+.lipinjiu .item2 .title{font-size:14px;color:#BC843D;background: url('../images/dot.gif') repeat-x left bottom;padding-bottom:5px;}
+.lipinjiu .intro{width:505px;margin-top: 5px;}
 /* general */
 .left{float:left;}
 .right{float:right;}
