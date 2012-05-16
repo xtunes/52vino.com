@@ -315,6 +315,9 @@ ul{list-style:none;}
 .lipinjiu .item2{padding-bottom:40px;}
 .lipinjiu .item2 .title{font-size:14px;color:#BC843D;background: url('../images/dot.gif') repeat-x left bottom;padding-bottom:5px;}
 .lipinjiu .intro{width:505px;margin-top: 5px;}
+.newscattitle{font-size:14px;font-weight:bold;}
+.newscattitle a{color:#000;}
+.cat9-2{width: 332px;}
 /* general */
 .left{float:left;}
 .right{float:right;}
@@ -332,6 +335,7 @@ ul{list-style:none;}
 	vertical-align:middle;
 	display:block;
 }
+.red{color:#6E232D!important;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.

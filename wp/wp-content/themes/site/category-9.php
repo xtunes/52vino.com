@@ -23,14 +23,34 @@ if(function_exists('bcn_display'))
 </div>
 					<div class="content cat9">
 					<ul class="newslist left" style="padding-left:68px;">
-							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    		  <li>
-				<a href="<?php the_permalink() ?>" target="_top"><?php the_title();?></a>
-    		  </li>
-    		  <?php endwhile; endif; ?>
+						<?php
+$taxonomyName = "category";
+$term2 = $wp_query->queried_object;
+$termID = $term2->term_id;
+$termchildren = get_term_children( $termID, $taxonomyName );
+$childrennum = count($termchildren);	
+foreach ($termchildren as $child) {
+	echo '<div style="padding-bottom:24px;">';
+	$term = get_term_by( 'id', $child, $taxonomyName );
+	echo '<div class="newscattitle"><a href="' . get_term_link( $term->name, $taxonomyName ) . '">' . $term->name . '</a></div>';	
+	echo '<img src="/images/new.gif"/>';
+	$termID2=$term->term_id;
+	query_posts(array( 'cat' => $termID2, 'posts_per_page' => 2, 'orderby' => 'title', 'order' => 'DESC' )  );
+// The Loop
+while ( have_posts() ) : the_post();
+	echo '<div><a class="red" href="' . post_permalink() . '">';
+	the_title();
+	echo '</a></div>';
+endwhile;
+
+// Reset Query
+wp_reset_query();
+echo '</div>';
+}
+?>
+						
 					</ul>
 					<div class="right"><img src="/images/cat9-2.jpg"/></div>
-										<?php wp_pagenavi(); ?>
 </div>
 					</div>
 				<div class="clear"></div>
